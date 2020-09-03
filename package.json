@@ -6,6 +6,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "prettify": "prettier --write .",
     "start": "node server.js"
   },
   "repository": {
@@ -21,5 +22,10 @@
   "homepage": "https://github.com/mskradde/fullstack-template#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.11.0",
+    "prettier": "^2.1.1"
   }
 }
