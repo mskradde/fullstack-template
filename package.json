@@ -1,0 +1,25 @@
+{
+  "name": "fullstack-template",
+  "private": "true",
+  "version": "1.0.0",
+  "description": "Express server with CRA, ESlint, Git Hooks and Prettier",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mskradde/fullstack-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mskradde/fullstack-template/issues"
+  },
+  "homepage": "https://github.com/mskradde/fullstack-template#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
